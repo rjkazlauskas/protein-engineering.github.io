@@ -4,3 +4,4 @@
 
 layout: home
 ---
+This sentence appears in the index.markdown file.
