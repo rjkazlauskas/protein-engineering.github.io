@@ -4,4 +4,10 @@
 
 layout: home
 ---
-This sentence appears in the index.markdown file.
+
+<h3>{{ site.data.samplelist.docs_list_title }}</h3>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
