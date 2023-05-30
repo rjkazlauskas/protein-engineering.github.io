@@ -5,9 +5,9 @@
 layout: home
 ---
 
-<h3>{{ site.data.samplelist.docs_list_title }}</h3>
+<h3>{{ site.data.tableofcontents.docs_list_title }}</h3>
 <ul>
-   {% for item in site.data.samplelist.docs %}
+   {% for item in site.data.tableofcontents.docs %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
